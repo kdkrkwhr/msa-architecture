@@ -1,0 +1,18 @@
+spring: 
+  application:
+    name: kdk-eureka-zuul
+
+server: 
+  port: 8100
+
+zuul:
+  routes:
+    api-service:
+      path: /api/**
+      serviceId: kdk-eureka-zuul-service-api
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
