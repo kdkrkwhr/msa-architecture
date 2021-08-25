@@ -2,7 +2,7 @@
 # Cloud MSA
    Spring Boot
 
-Kim Dong-gi
+Dongki, Kim
 ---
 
 ### **Environment**  
