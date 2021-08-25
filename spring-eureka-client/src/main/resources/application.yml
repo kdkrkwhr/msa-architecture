@@ -1,13 +1,11 @@
 spring: 
   application:
-    name: kdk-eureka-server
+    name: kdk-eureka-discovery
 
 server: 
-  port: 8081
+  port: 8082
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8081/eureka/
-    registerWithEureka: false
-    fetchRegistry: false
