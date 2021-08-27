@@ -13,3 +13,5 @@ Dongki, Kim
 
 #### Architecture
 ![architecture-image](https://i.ibb.co/0rvvcxK/cloud-msa.png)
+
+I wrote that reference [file](https://drive.google.com/file/d/1rV180ZR_8y1ivjaB3C8ZTEwOlAzbsKN6/view?usp=sharing)
