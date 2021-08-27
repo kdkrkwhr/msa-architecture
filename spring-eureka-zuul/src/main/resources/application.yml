@@ -11,7 +11,10 @@ zuul:
       stripPrefix: false
       path: /api/**
       url: http://localhost:8101
-
+    service-2:
+      stripPrefix: false
+      path: /python/**
+      url: http://localhost:8102
 eureka:
   client:
     register-with-eureka: true
