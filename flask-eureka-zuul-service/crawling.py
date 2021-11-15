@@ -1,11 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-def crawler():
-  url = 'https://github.com/kdkrkwhr'
+def crawler(url):
   html = requests.get(url)
-  print("CRAWING :: ", html.text)
-
   return html.text
 
 def crawler_parsing(url, tag):
