@@ -10,7 +10,7 @@ public class ErrorFilter extends ZuulFilter {
   
   @Override
   public String filterType() {
-    return "ERROR";
+    return "error";
   }
 
   @Override

@@ -10,7 +10,7 @@ public class RouteFilter extends ZuulFilter {
 
   @Override
   public String filterType() {
-    return "ROUTE";
+    return "route";
   }
 
   @Override

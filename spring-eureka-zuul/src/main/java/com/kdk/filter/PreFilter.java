@@ -12,7 +12,7 @@ public class PreFilter extends ZuulFilter {
 
   @Override
   public String filterType() {
-    return "PRE";
+    return "pre";
   }
 
   @Override

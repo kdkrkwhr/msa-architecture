@@ -10,7 +10,7 @@ public class PostFilter extends ZuulFilter {
 
   @Override
   public String filterType() {
-    return "POST";
+    return "post";
   }
 
   @Override
